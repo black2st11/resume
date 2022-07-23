@@ -1,0 +1,225 @@
+{
+  "main": {
+    "name": "문정훈",
+    "occupation": "대전",
+    "description": "백엔드 개발자로 주로 Django 를 다루며 개발을 했습니다. 이외에도 React, React Native, AWS 를 통해서 개발 및 운영과 유지보수를 진행했습니다",
+    "image": "profile.png",
+    "bio": "개발하는 것과 새로운 것에 대한 도전을 좋아합니다. 현재 추구하는 것은 발전하는 사람이 되는 것입니다. 그래서 그것을 이루기 위해서 퇴근하거나 주말마다 개발관련으로 공부를 하고있으며 현재는 패키지쪽으로 공부를 하고있습니다.",
+    "contactmessage": "연락부탁드립니다.",
+    "email": "black2st11@gmail.com",
+    "phone": "010-8614-7257",
+    "address": {
+      "street": "(Your Street)",
+      "city": "대전",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/black2st11",
+        "className": "fa fa-github",
+        "svg": "github"
+      },
+      {
+        "name": "blog",
+        "url": "https://velog.io/@black2st11",
+        "className": "fa-solid fa-blog",
+        "svg": "blog"
+      },
+      {
+        "name": "medium",
+        "url": "https://medium.com/@black2st11",
+        "svg": "medium"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "주로 사용하고 있는 기술이며 Django 를 주로 사용하는 백엔드 지향 개발자입니다. 하지만, 상황에 따라 프론트 영역도 같이 합니다.",
+    "education": [
+      {
+        "school": "순천대학교",
+        "degree": "컴퓨터공학과",
+        "graduated": "2020-02",
+        "description": "기본적인 소양(언어론, 알고리즘, 자료구조, 컴퓨터 구조, 운영체제 등등..) 을 배웠으며 졸업 작품으로 WEB RTC 를 이용한 원격으로 수업을 제공하는 어플리케이션을 제작했습니다."
+      }
+    ],
+    "work": [
+      {
+        "company": "테크밸류",
+        "title": "FullStack Developer",
+        "years": "2019-10 ~ 2020-03",
+        "description": "처음으로 들어간 회사로 Django 와 React 를 통해 개발을 진행했으며 배포는 aws(ec2, s3) 를 통해서 했습니다. 주요 업무는 운영 단계에서 발생하는 버그 픽스와 신기능 개발이였습니다.",
+        "history": [
+          "크로스 브라우징 이슈 해결",
+          "계산 알고리즘 개선",
+          "버그 수정 및 기능 개선",
+          "뷰어 기능 어플리케이션 MVP 개발",
+          "AWS 를 통한 배포 및 관리"
+        ],
+        "epilogue": "처음으로 일하는 것치고 혼자서 모든 부분을 해결했던 부분이 지금 생각해도 신기하지만 아쉽게도 면접 당시에 요구했던 시니어 개발자를 뽑을 충분한 여력이 있었음에도 채용하지 않았기에 퇴사를 결심"
+      },
+      {
+        "company": "세이프 모션",
+        "title": "FullStack Developer",
+        "years": "단기 계약직(1개월)",
+        "description": "프로젝트(MES) 막바지에 들어와 Django 와 React 로 해당 프로젝트의 마무리 작업을 담당했습니다.",
+        "history": [
+          "ORM 속도 개선 및 API 에 대한 원자성 적용",
+          "프론트엔드 속도 이슈 및 하드 코딩을 컴포넌트화 진행 및 부분 렌더링으로 변경",
+          "전체 테스트 코드 작성"
+        ],
+        "epilogue": "속도 개선의 이전과 이후가 아주 큰 차이를 보이다보니 오히려 재미가 있었고 테스트코드를 시작전에 짜고 기능을 구현했기에 예기치 못한 변수를 사전에 잡을 수 있었다. 그리고 평소에는 접해 볼 수 없는 분야라서 지식의 스펙트럼을 넓힐 수 있었다."
+      },
+      {
+        "company": "인지솔루션",
+        "title": "FullStack Developer",
+        "years": "단기 계약직(6개월)",
+        "description": "Django 와 React 로 사내 홈페이지 및 사내 ERP 를 제작했으며 개발자 멘토링 역할을 했습니다.",
+        "history": [
+          "윈도우 아파치 기반의 배포 방식 적용",
+          "개발자 멘토 역할 진행",
+          "계산 결과 부분 캐싱 처리 적용"
+        ],
+        "epilogue": "개발에 대한 부분보다는 멘토링을 하는 과정에 있어서 얻은 대화의 능력과 또 신박한 의견공유를 통한 발전이 아주 의미있는 곳이었다."
+      },
+      {
+        "company": "랄라",
+        "title": "FullStack Developer",
+        "years": "2020-12 ~ 2021-08",
+        "description": "Node.js, React 를 이용해 백엔드 서버 및 웹뷰 제작을 진행했습니다.",
+        "history": [
+          "Docker(compose) 기반의 배포 방식 적용",
+          "소셜 인증 도입, SMS 인증 방식, 푸시 적용",
+          "NoSql(mongodb) 와 RDBMS(postgresql) 동시 적용",
+          "채팅 플랫폼(sendbird) 적용",
+          "웹뷰 및 브릿지 작성 및 네이티브 개발자에게 코드 전달"
+        ],
+        "epilogue": "해당 기업에서 처음으로 docker를 사용하고 nosql을 업무에서 사용해봤는데 나름의 장점을 가지고 충분히 가치가 있었다. 하지만 기술을 모르는 CTO와 계속 변경되는 기획으로 인해서 아쉽게도 퇴사를 할 수 밖에 없었다."
+      },
+      {
+        "company": "망고소프트",
+        "title": "FullStack Developer",
+        "years": "단기 계약직(6개월)",
+        "description": "부탁을 받아서 6개월간 Django와 React Native 를 통해 어플리케이션(Appstore, playstore) 제작",
+        "history": [
+          "소셜 로그인 적용 및 sms 기반의 인증 방식 적용",
+          "애플, 구글 푸시 적용",
+          "센서 데이터를 이용한 모바일에서 위치 전송 및 수집",
+          "스케줄링(Cron 기반)을 통한 주기적 알림",
+          "유료 아이템 등록",
+          "퍼블리싱 진행"
+        ],
+        "epilogue": "여러번의 간곡한 부탁을 들어서 들어가게 되었다. 어플리케이션을 만든 적은 있지만 출시를 한 경험은 없었기에 조금은 막막했지만 디자인을 제외하고 전체적인 프로세스(기획, 개발, 퍼블리싱, 서버 배포, 유료화)를 경험할 수 있어서 나름 좋았던 경험이다."
+      },
+      {
+        "company": "데이터메이커",
+        "title": "Backend Developer",
+        "years": "수습 기간 중 퇴사",
+        "description": "Django를 통해 개발을 진행했으며 주요 업무는 기능개발, 버그픽스가 주된 업무였습니다.",
+        "history": [
+          "기능개선 및 신기능 개발",
+          "간간히 발생하는 버그 수정"
+        ],
+        "epilogue": "생각했던 분위기와는 많이 달랐고 업무에 대한 기본적인 체계가 안잡혀 발생하는 문제가 많았기에 수습 기간 중 퇴사"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "svg" : "python-5.svg"
+      },
+      {
+        "name": "Django",
+        "svg" : "django.svg"
+      },
+      {
+        "name": "Javascript",
+        "svg" : "logo-javascript.svg"
+      },
+      {
+        "name": "Typescript",
+        "svg" : "typescript.svg"
+      },
+      {
+        "name": "React",
+        "svg" : "react-2.svg"
+      },
+      {
+        "name": "ReactNative",
+        "svg" : "react-native-1.svg"
+      },
+      {
+        "name": "Aws",
+        "svg" : "aws-2.svg"
+      },
+      {
+        "name": "Git",
+        "svg" : "git-icon.svg"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "기술가치평가(JADE)",
+        "category": "React, Django, AWS(EC2, S3), Firebase",
+        "image": "jade.jpeg",
+        "popup": "",
+        "url": ""
+      },
+      {
+        "title": "MES",
+        "category": "React Django, Docker, Material UI",
+        "image": "mes.png",
+        "url": ""
+      },
+      {
+        "title": "사내 홈페이지",
+        "category": "React Django Apache",
+        "image": "homepage.png",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "사내 ERP",
+        "category": "Django, React, Apacher, Antd",
+        "image": "erp.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "어린이집 관련 프로젝트",
+        "category": "Node.js Express, React, AWS(EC2, S3), Docker, RDS",
+        "image": "lulla.png",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "스케줄넛",
+        "category": "Node.js Express, React, AWS(EC2, S3), Docker, RDS",
+        "image": "schedule.png",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "주로 쉬는 날에 개발을 하면서 시간을 보내고 있습니다. 현재 집중하고 있는 것은 편리한 패키지를 찾는 것에 집중을 하고 있습니다. 이유는 이전에는 주로 모든 부분을 개발을 하면서 공부목적의 의도가 있었다면 이제는 반대로 남들이 짜놓은 검증받은 코드를 보면서 설계 방식을 보고 배우고 있습니다. 또한, 선택의 폭을 넓힐수 있다는 장점도 있기에 진행하고 있습니다.",
+        "user": ""
+      },
+      {
+        "text": "배포 방식에도 현재 관심이 많이 있으며 그 중에서도 서버리스 방식에 초점을 두고 있습니다. 이유는 비용적인 부분과 유지보수 부분에서 탁월한 장점을 보인다고 생각하고 있으며 해당하는 부분이 개발에 집중을 할 수 있게 하는 요소라고 생각하고 있기에 관심을 두고 공부하고 있습니다.",
+        "user": ""
+      },
+      {
+        "text": "강점이라고 생각하는 부분은 혼자서 디자인을 제외하고 전체적인 프로세스를 같이 경험하기도 혼자서도 경험했기 때문에 일에 대한 이해도와 협업과 대화를 함에 있어 더욱 더 원활한 결과를 낼 수 있습니다.",
+        "user": ""
+      },
+      {
+        "text": "긍정적인 사고와 문제 해결을 하는 것이 재미있고 문제가 잘 안풀리면 머리속에 맴돌면서 해결 방식을 계속 생각해냅니다. 이러한 부분이 좋은 점이라고 생각합니다.",
+        "user": ""
+      }
+    ]
+  }
+}
